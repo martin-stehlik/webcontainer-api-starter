@@ -11,7 +11,7 @@ const app = express();
 const port = 3111;
   
 const proxyServer = 'https://corsproxy.io';
-const shopUrl = 'https://fenix.myshoptet.com';
+const shopUrl = 'https://classic.shoptet.cz';
 
 const target = proxyServer + '/?' + shopUrl;
 
